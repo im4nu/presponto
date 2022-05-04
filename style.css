@@ -1,0 +1,86 @@
+*{
+    font-family: 'DM Sans';
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+:root {
+    font-size: 62.5%; /* 1 rem equivale a 10 pix.*/
+    --primary-color: rgb(129, 37, 72);
+    --secondary-color: hsla(210, 11%, 15%, 1);
+    --headline: hsla(210, 11%, 15%, 1);
+    --paragraph: hsla(210, 9%, 31%, 1);
+  }
+  body {
+    background-image: url("/assent/roupas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 37.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #conteiner_principal{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(0.03rem);
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 2.0rem;
+  }
+  #boas_vindas {
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+  } 
+  #f_impacto {
+    color: white;
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 130%;
+    text-align: center;
+  }
+  #p_principal {
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 150%;
+    text-align: center;
+  }
+  #b_agendamento {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 2.0rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 3.0rem;
+  }
+  #b_agendamento:hover {
+      cursor: pointer;
+  }
+  #container_inf_maior{
+    text-align: center;
+    background: #FFFAF1;
+    border: 1px solid #DCE9E2;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  .h3{
+    color: var(--secondary-color);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .p1{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
