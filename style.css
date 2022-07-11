@@ -93,7 +93,7 @@ ul li {
 
   gap: 4.2rem;
 }
-.navigation a{
+.navigation a {
   color: var(--txt-color);
   font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
@@ -340,7 +340,9 @@ ul li {
 
   width: 70%;
   height: 40%;
-  gap: 12rem;
+
+  gap: 10%;
+
   border-radius: 4rem;
   border: 4rem;
   border-color: var(--nav-txt-color);
