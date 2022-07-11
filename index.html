@@ -4,36 +4,232 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project A</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>PresPonto</title>
   </head>
   <body>
-    <header>
-        <h4 id="boas_vindas">BOAS-VINDAS A PRÉS-PONTO 👋</h4>
-        <div id="conteiner_principal">
-      <h1 id="f_impacto">Conserto de roupas em geral</h1>
-      <p id="p_principal">
-       O ateliê de costura prés ponto é especializado em conserto de roupas em geral e confecção de tapetes e artezanatos, não perca tempo agende já seu atendimento!
-      </p>
-      <button id="b_agendamento">
-          <img src="/assent/whats_icon.svg" alt="Ícone_whatsapp">
-        Agende seu atendimento
-      </button>
+    <nav class="navigation">
+      <div class="nav-div">
+        <a href="#home">
+          <img src="/assets/logo-claudia.svg" alt="Logomarca escrito cláudia"
+        /></a>
+        <ul>
+          <div class="menu">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#tips">Dicas</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Localização</a></li>
+          </div>
+        </ul>
+        <a target="_blank" href="http://wa.me/558881129314" id="nav-btn"
+          >AGENDAR ATENDIMENTO</a
+        >
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="home-section">
+        <img
+          src="/assets/modelo-hero-section.svg"
+          alt="Modelo de mechas azuis olhando para o lado esquerdo pensativa"
+        />
+        <div class="inf-home-section">
+          <div class="artboard">
+            <div class="card">
+              <div class="card__side card__side--back">
+                <div class="card__cover">
+                  <h4 class="card__heading">
+                    <span class="card__heading-span">Por que escolher o nosso ateliê?</span>
+                  </h4>
+                </div>
+                <div class="card__details">
+                  <ul>
+                    <li>
+                      O ateliê de costura prés ponto conta com o melhor em
+                      equipamentos e tecnologias para melhor lhe atender.
+                      Atendimento premium de alta qualidade e ideal para o
+                      ajuste que a sua roupa precisa para lhe dar aquele estilo!
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--front">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cards">
+      <div class="container-card">
+        <div class="row">
+          <div class="four col-md-3">
+            <div class="counter-box">
+              <i class="bx bxs-shopping-bag-alt"></i>
+              <span class="counter">+7.000</span>
+              <p>Clientes atendidos</p>
+            </div>
+          </div>
+          <div class="four col-md-3">
+            <div class="counter-box">
+              <i class="bx bxs-star-half"></i>
+              <span class="counter">5 Estrelas</span>
+              <p>Melhor Avaliação do Mercado</p>
+            </div>
+          </div>
+          <div class="four col-md-3">
+            <div class="counter-box"  class="animate__backInUp">
+              <i class="bx bx-store"></i>
+              <span class="counter">+10</span>
+              <p>Anos de História</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tips">
+      <div class="arrow bounce">
+        <a id="arrow" class="fa fa-arrow-down fa-2x" href="#tips"><i class='bx bx-down-arrow-alt'></i></a>
+      </div>
+      <div class="tip-section">
+        <div class="title-tips">
+          <h6>Ajustes</h6>
+        </div>
+        <div class="content">
+          <div class="visible">
+            <p>Já decidiu?</p>
+            <ul>
+              <li>Quais Ajustes</li>
+              <li>Você Deseja</li>
+              <li>Fazer Hoje?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="box">
+          <img src="/assets/calca-jeans-1.png" />
+          <span>Calça Jeans</span>
+        </div>
+        <div class="box">
+          <img src="/assets/camisa.png" />
+          <span>Camisa</span>
+        </div>
+        <div class="box">
+          <img src="/assets/vestido7.png" />
+          <span>Vestido</span>
+        </div>
+        <div class="box">
+          <img src="/assets/camiseta.svg" />
+          <span>Camiseta</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-container">
+          <img src="/assets/modelo-sobre-section.svg" alt="" class="pic">
+        <div class="about-section">
+          <h4>SOBRE</h4>
+          <h2>O que é o Prés ponto?</h2>
+          <h5>Garanto que mais que um ateliê!</h5>
+
+          <p>
+            O Prés é um negócio, uma micro empresa que está em funcionamento
+            desde 2011, começou como uma loja de conserto de roupas e hoje
+            tornou-se um renomado ateliê de conserto de roupas e confecção de
+            artezanatos. O mesmo é comandado pela Cláudia, costureira e dona de
+            toda essa ideia!
+          </p>
+        </div>       
+      </div>
+    </section>
+
+    <section id="contact">
+<div class="contact-section">
+      <div class="contact-inf">
+        <h2>Entre em contato com a gente!</h2>
+        <div class="inf-contact-secundary">
+          <div class="adress">
+            <i class="bx bx-map"></i>
+            <p>Rua dos Cariris, 307, Centro, Barbalha - CE</p>
+          </div>
+          <div class="mail">
+            <i class="bx bxl-gmail"></i>
+            <p>presponto@gmail.com</p>
+          </div>
+        </div>
+        <a
+          href="http://wa.me/558881129314"
+          class="btn-cntt"
+          id="cntt-section-btn"
+          ><i class="bx bxl-whatsapp"></i>AGENDAR ATENDIMENTO</a
+        >
+      </div>
+
+      <div class="iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3752705269535!2d-39.301813684639754!3d-7.311670873920517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a1764a809f7a1b%3A0xaeb6e45f40a30831!2sR.%20dos%20Cariris%2C%20307%20-%20Centro%2C%20Barbalha%20-%20CE%2C%2063180-000!5e0!3m2!1spt-BR!2sbr!4v1657562520544!5m2!1spt-BR!2sbr" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
-      <div id= "container_inf_maior">
-        <h3 class="h3">+3.500</h3>
-        <p class="p1">Clientes atendidos por ano</p>
-        <h3 class="h3">5☆</h3>
-        <p class="p1">Avaliação dos clientes</p>
-        <h3 class="h3" >+10</h3>
-        <p class="p1">Anos no mercado</p>
-    </div>
-    </header>
+    </section>
+
+
+    <footer>
+      <div class="footer-section">
+        <div class="righters">
+          <p>©2022 - Pres Ponto</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="logo-footer">
+          <img
+            src="/assets/logo-claudia.svg"
+            alt="Logomarca com o nome Cláudia"
+          />
+        </div>
+        <div class="social-midia">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/claudia_rodriguesalvez/"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/messages/t/100014368904654"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="http://wa.me/558881129314"
+                ><i class="bx bxl-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
   </body>
 </html>
